@@ -12,22 +12,22 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Barbershop Berlin | World of Barber´s</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Barbershop World of Barber´s in Berlin für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin"
         />
         <link rel="canonical" href="https://gentlemanscut.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="World of Barber´s | Premium Barbershop Berlin" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gentlemanscut.de" />
@@ -35,7 +35,7 @@ const Index = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="World of Barber´s | Premium Barbershop Berlin" />
         <meta
           name="twitter:description"
           content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
@@ -47,7 +47,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
+            "name": "World of Barber´s",
             "image": "https://gentlemanscut.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
@@ -67,8 +67,8 @@ const Index = () => {
             "priceRange": "€€",
             "servesCuisine": "Barbershop Services",
             "sameAs": [
-              "https://www.facebook.com/gentlemanscut",
-              "https://www.instagram.com/gentlemanscut"
+              "https://www.facebook.com/worldofbarbers",
+              "https://www.instagram.com/worldofbarbers"
             ]
           })}
         </script>
